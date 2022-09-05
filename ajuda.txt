@@ -1,0 +1,21 @@
+=========================
+• Instalação:
+
+~/ $ apt-get update && apt-get upgrade -y
+
+~/ $ apt-get install python -y
+
+~/ $ python -m pip install --upgrade pip
+
+~/ $ pip3 install -r requirements.txt
+
+=========================
+• Exemplo:
+
+~/ $ python3 main.py /cpf 00000000272
+
+~/ $ cat consulta.json
+
+Exemplo de Response: {"status": 200, "message": {"cpf": "00000000272", "nome": "GHERSON DYWYNO ESPHYNDOLA"}}
+
+=========================

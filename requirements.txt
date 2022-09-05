@@ -1,0 +1,4 @@
+requests
+telethon
+ujson
+python-socks
